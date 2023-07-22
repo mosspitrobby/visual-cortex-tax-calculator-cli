@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import figlet from "figlet";
 import { Command } from "commander";
 import chalk from "chalk";
@@ -95,5 +96,3 @@ async function getTax(incomeInfo: IncomeInfo) {
         console.error(chalk.red("A network error occurred: "), error);
     }
 }
-// dockerfile for backend
-// gcp hosting

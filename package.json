@@ -1,0 +1,39 @@
+{
+  "name": "visual-cortex-tax-calculator-cli",
+  "version": "1.0.0",
+  "description": "CLI app for calculating tax",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint --fix src/**/*.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Walford",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "cli-clear": "^1.0.4",
+    "cli-spinner": "^0.2.10",
+    "commander": "^11.0.0",
+    "figlet": "^1.6.0",
+    "inquirer": "^9.2.8",
+    "node-fetch": "^3.3.1",
+    "ora": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/cli-spinner": "^0.2.1",
+    "@types/figlet": "^1.5.6",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "5.0.0",
+    "typescript": "^5.1.6"
+  }
+}

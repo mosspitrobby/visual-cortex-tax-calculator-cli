@@ -22,7 +22,8 @@ console.log(
 );
 
 const program = new Command();
-const url = "http://localhost:8080/api/calculate";
+const url =
+    "https://visual-cortex-tax-calculator-vxvkvfilta-ts.a.run.app/api/calculate";
 
 program
     .name("visual-cortex-tax-calculator")

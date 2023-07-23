@@ -1,6 +1,6 @@
 {
   "name": "@mosspitrobby/visual-cortex-tax-calculator-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI app for calculating tax",
   "main": "index.ts",
   "scripts": {
